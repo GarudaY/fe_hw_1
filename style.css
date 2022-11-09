@@ -1,0 +1,134 @@
+.wrapper {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: flex;
+}
+
+.textLogo {
+    align-self: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.imgLogo {
+    width: 72px;
+}
+
+.navWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.getStarted {
+    background-color: #4CAF50;
+    height: 40px;
+    border: none;
+    color: white;
+    padding: 5px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    white-space: nowrap;
+    margin-left: 50px;
+}
+
+.item {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: darkgray;
+    margin: 5px;
+}
+
+.imgContent {
+    display: flex;
+    margin: 20px 155px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin: 0 50px 0 0;
+}
+
+.cars {
+    max-width: 850px;
+    width: 100%;
+}
+
+.title {
+    max-width: 500px;
+    font-size: 80px;
+    margin: 0 0 20px 0;
+}
+
+.description {
+    color: darkgray;
+    font-size: 30px;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.storeBtn {
+    background-color: black;
+    height: 60px;
+    border: none;
+    color: white;
+    padding: 5px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    white-space: nowrap;
+    margin-right: 15px;
+}
+
+.menuItem {
+    padding: 50px;
+    border: 1px solid darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+.menuImg {
+    width: 60px;
+}
+
+.menu {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.menuTitle {
+    margin: 20px 0 15px;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.menuDesc {
+    font-size: 16px;
+    font-weight: 700;
+    color: darkgray;
+}
